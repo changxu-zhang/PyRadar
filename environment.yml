@@ -1,0 +1,40 @@
+name: pyradar
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=5.1
+  - ca-certificates=2024.7.2
+  - ld_impl_linux-64=2.38
+  - libffi=3.4.4
+  - libgcc-ng=11.2.0
+  - libgomp=11.2.0
+  - libstdcxx-ng=11.2.0
+  - ncurses=6.4
+  - openssl=3.0.15
+  - pip=24.2
+  - python=3.9.19
+  - readline=8.2
+  - setuptools=75.1.0
+  - sqlite=3.45.3
+  - tk=8.6.14
+  - tzdata=2024a
+  - wheel=0.44.0
+  - xz=5.4.6
+  - zlib=1.2.13
+  - pip:
+      - contourpy==1.3.0
+      - cycler==0.12.1
+      - fonttools==4.53.1
+      - importlib-resources==6.4.5
+      - kiwisolver==1.4.7
+      - matplotlib==3.9.2
+      - numpy==2.0.2
+      - packaging==24.1
+      - pillow==10.4.0
+      - pyparsing==3.1.4
+      - python-dateutil==2.9.0.post0
+      - scipy==1.13.1
+      - six==1.16.0
+      - zipp==3.20.2
+prefix: /home/wzz/anaconda3/envs/pyradar

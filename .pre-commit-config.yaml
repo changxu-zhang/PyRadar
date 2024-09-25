@@ -1,0 +1,35 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+        description: "Remove trailing whitespace from lines"
+      - id: end-of-file-fixer
+        description: "Ensure files end with a newline"
+      - id: check-yaml
+        description: "Check that YAML files are valid"
+      - id: double-quote-string-fixer
+        description: "Fix double quotes in strings"
+      - id: name-tests-test
+        description: "Ensure test names are valid (for Python)"
+      - id: requirements-txt-fixer
+        description: "Fix issues in requirements.txt files"
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-ast
+        description: "Check Python files for syntax errors"
+      - id: check-xml
+        description: "Validate XML files"
+      - id: check-json
+        description: "Validate JSON files"
+      - id: check-merge-conflict
+        description: "Detect unresolved merge conflicts"
+
+  - repo: https://github.com/PyCQA/pydocstyle
+    rev: 6.3.0
+    hooks:
+      - id: pydocstyle
+        args: ["--convention=pep257"]
+        description: "Enforce docstring conventions as per PEP 257"
