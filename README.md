@@ -18,6 +18,7 @@ API Configs:
 - pyradar.sensor
 - pyradar.rsp
 - pyradar.simulation
+- pyradar.visualization
 ...
 
 License: This repository is licensed under the Apache license.
